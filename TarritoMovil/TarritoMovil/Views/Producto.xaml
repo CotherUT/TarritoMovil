@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarritoMovil.Views.Producto">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Producto"
+                VerticalOptions="Center"/>
+
+            <Label Text="Titulo" FontSize="Large"/>
+            <Entry x:Name="tbTitulo"
+                   Placeholder="Aretes de ranita"/>
+            
+            <Label Text="Descripción" FontSize="Large"/>
+            <Entry x:Name="tnDescripcion"
+                Placeholder="Aretes con forma de ranita, sobre ojas de loto"/>
+            
+            <Label Text="Precio" FontSize="Large"/>
+            <Entry x:Name="tbPrecio"
+                Placeholder="250"
+                Keyboard="Numeric"
+                   TextChanged="tbPrecio_TextChanged"/>
+            
+            <Label Text="Cantidad" FontSize="Large"/>
+            <Entry x:Name="tbCantidad"
+                   Placeholder="1"
+                   Keyboard="Numeric" />
+            
+            <Label Text="Categoría" FontSize="Large"/>
+            <Entry x:Name="tbCategoria"
+                Placeholder="Categoria"/>
+            
+            <Label Text="Etiquetas" FontSize="Large"/>
+            <Entry x:Name="tbEtiquetas"
+                Placeholder="Etiquetas"/>
+            
+
+            <Button x:Name="btnAceptar"
+                    Text="Aceptar"
+                    BackgroundColor="LightGreen"/>
+            <Button x:Name="btnElimiar"
+                    Text="Eliminar"
+                    BackgroundColor="LightBlue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

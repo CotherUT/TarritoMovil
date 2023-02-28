@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TarritoMovil.Views;
 using Xamarin.Forms;
 
 namespace TarritoMovil
@@ -27,9 +28,7 @@ namespace TarritoMovil
 
         private void ToolbarItem_Clicked_2(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Producto());
         }
-
-
     }
 }
