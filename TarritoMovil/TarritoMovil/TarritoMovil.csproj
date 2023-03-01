@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Views\Login.xaml">
+    <EmbeddedResource Update="Views\Registro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
