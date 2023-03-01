@@ -3,34 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TarritoMovil.Views.Registro">
     <ContentPage.Content>
-        <StackLayout Margin="10,5,0,50">
-            <Label x:Name="LbTitulo"
-               Text="Crear una cuenta"
-               FontAttributes="Bold"
-               FontSize="Large"
-               HorizontalTextAlignment="Center"
-               TextColor="Black"
-               />
-            <Label x:Name="LbNombre"
-               Text="Nombre de usuario:"
-               FontSize="Medium"
-               FontAttributes="Bold"
-               TextColor="Black"
-               />
-            <Entry x:Name="TbNombre"
-               Placeholder=""
-               PlaceholderColor="Gray"
-               FontSize="Medium"
-               TextColor="Black"
-               Margin="0,0,20,0"
-               />
-            <Label x:Name="LbEmail"
-               Text="Email:"
-               FontSize="Medium"
-               FontAttributes="Bold"
-               TextColor="Black"
-               />
-            <Entry x:Name="TbEmail"
+        <ScrollView>
+            <StackLayout >
+                <Image x:Name="logo"
+                   Source="Imagenes/logo.png"
+                   HeightRequest="250"
+                   Margin="0,0,0,0"/>
+                
+                <StackLayout Margin="35,0,35,0">
+                    <Label x:Name="LbTitulo"
+                     Text="Crear una cuenta"
+                     FontAttributes="Bold"
+                     FontSize="Large"
+                     HorizontalTextAlignment="Center"
+                     TextColor="Black"
+                    Margin="0,0,0,30"
+                    />
+                    <Label x:Name="LbNombre"
+                    Text="Nombre de usuario:"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    />
+                    <Entry x:Name="TbNombre"
+                    Placeholder=""
+                    PlaceholderColor="Gray"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Margin="0,0,20,0"
+                    />
+                    <Label x:Name="LbEmail"
+                    Text="Email:"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    />
+                    <Entry x:Name="TbEmail"
                Placeholder=""
                PlaceholderColor="Gray"
                FontSize="Medium"
@@ -112,14 +120,33 @@
                         HorizontalOptions="Center"
                         WidthRequest="150"
                         CornerRadius="10"
-                        HeightRequest="250"/>
+                        HeightRequest="40"/>
             </Grid>
-            <Label x:Name="LbCuenta"
-                   Text="¿Ya tienes una cuenta? Inicia sesión"
+            <Label x:Name="LbIniciarSesion"
+                   HorizontalOptions="Center"
                    FontSize="Medium"
-                   FontAttributes="Bold"
                    TextColor="Black"
-                   HorizontalOptions="Center"/>
-        </StackLayout>
+                   FontAttributes="Bold">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="¿Ya tienes una cuenta? " 
+                        />
+                    <Span Text="Inicia Sesión"
+                        TextColor="Blue"
+                        TextDecorations="Underline"
+                        FontSize="Medium"
+                        FontAttributes="Bold">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding IniciarSesion}"
+                                           />
+                        </Span.GestureRecognizers>
+                    </Span>
+                    
+                </FormattedString>
+            </Label.FormattedText>
+            </Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
