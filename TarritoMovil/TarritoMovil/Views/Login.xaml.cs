@@ -18,8 +18,8 @@ namespace TarritoMovil.Views
         public void IrRegistrarse()
         {
 
-            Navigation.PushAsync(new MainPage()); //Borrar esto y usar el comentario de abajo ya que el login este terminado
-            //Navigation.PushAsync(new Login());
+           
+            Navigation.PushAsync(new Registro());
         }
         public Login()
         {
