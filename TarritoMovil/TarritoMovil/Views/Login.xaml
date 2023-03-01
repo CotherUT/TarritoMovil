@@ -3,45 +3,76 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TarritoMovil.Views.Login">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="Center" Margin="35,0,35,0">
             <Label x:Name="LbTitulo"
              Text="Iniciar sesión"
               FontSize="Large"
-              TextColor="Purple"
+              TextColor="#79a9ac"
               FontAttributes="Bold"
-               HorizontalTextAlignment="Center"
+              HorizontalTextAlignment="Center"
+                   Margin="0,20,0,30"
                />
             <Label x:Name="Lbusuario"
              Text="Usuario:"
               FontSize="Medium"
-              TextColor="Purple"
+              TextColor="DimGray"
               FontAttributes="Bold"
                />
-            
-            
+
+
             <Entry x:Name="TbUsuario"
+             
                
                />
             <Label x:Name="LbContraseña"
-             Text="Contraseña"
-              FontSize="Medium"
-              TextColor="Purple"
-              FontAttributes="Bold"
+             Text="Contraseña:"
+             FontSize="Medium"
+             TextColor="DimGray"
+             FontAttributes="Bold"
+             Margin="0,30,0,0"   
                />
 
             <Entry x:Name="tbPeso"
-               Placeholder="Peso"
-               PlaceholderColor="pink"
-               FontAttributes="Italic"
+                
                />
 
-            <Button x:Name="btnCalcular"
-                Text="Calcular"
-                BackgroundColor="Purple"
+            <Button x:Name="btnLogin"
+                Text="Iniciar sesión"
+                BackgroundColor="#af88b1"
                 CornerRadius="15"
-                TextColor="Pink"
-                Margin="100,100,100,100"
+                TextColor="white"
+                Margin="0,30,0,0" 
+                Clicked="btnLogin_Clicked"
+                
                 />
+
+            <Label x:Name="LbSesion"
+                   HorizontalOptions="Center"
+                   FontSize="Medium"
+                   TextColor="DimGray"
+                   FontAttributes="Bold"
+                   Margin="30,30,30,30">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="¿Aún no tienes una cuenta?"/>
+                        
+                        <Span Text="Regístrate aquí"
+                            TextColor="#79a9ac"
+                            TextDecorations="Underline"
+                            FontSize="Medium"
+                            FontAttributes="Bold">
+                            
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Registrarse}"/>
+                                
+                            </Span.GestureRecognizers>
+                        </Span>
+
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
 
         </StackLayout>
     </ContentPage.Content>
