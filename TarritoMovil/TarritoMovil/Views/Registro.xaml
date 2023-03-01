@@ -43,6 +43,19 @@
                FontAttributes="Bold"
                TextColor="Black"
                />
+            <Entry x:Name="TbConfirmarEmail"
+               Placeholder=""
+               PlaceholderColor="Gray"
+               FontSize="Medium"
+               TextColor="Black"
+               Margin="0,0,20,0"
+               />
+            <Label x:Name="LbContrasena"
+               Text="Contraseña"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               TextColor="Black"
+               />
             <Entry x:Name="TbContrasena"
                Placeholder=""
                PlaceholderColor="Gray"
@@ -86,19 +99,20 @@
                TextColor="Black"
                Grid.Column="1"
                Grid.Row="0"
-               Margin="0,15,0,0"
+               Margin="0,11,0,0"
                />
                 <Button x:Name="BtnGuardar"
                         Text="Guardar"
-                        FontSize="Medium"
+                        FontSize="15"
                         TextColor="Black"
                         BackgroundColor="DeepSkyBlue"
                         Grid.Column="0"
                         Grid.ColumnSpan="2"
                         Grid.Row="1"
                         HorizontalOptions="Center"
-                        WidthRequest="250"
-                        CornerRadius="10"/>
+                        WidthRequest="150"
+                        CornerRadius="10"
+                        HeightRequest="250"/>
             </Grid>
             <Label x:Name="LbCuenta"
                    Text="¿Ya tienes una cuenta? Inicia sesión"
