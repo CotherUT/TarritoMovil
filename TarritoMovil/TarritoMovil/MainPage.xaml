@@ -13,7 +13,7 @@
                      Priority="1"
                      Clicked="ToolbarItem_Clicked_1" />
         <ToolbarItem Order="Secondary"
-                     Text="Secondary Text Item"
+                     Text="Producto"
                      Priority="2"
                      Clicked="ToolbarItem_Clicked_2" />
     </ContentPage.ToolbarItems>
