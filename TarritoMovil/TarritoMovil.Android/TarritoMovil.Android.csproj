@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_cart.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TarritoMovil\TarritoMovil.csproj">
       <Project>{DE863CF9-F8F6-43AE-B54D-19263D5B27A7}</Project>
@@ -92,6 +94,201 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_cart.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_home.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_user.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_user_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_cart_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_cart_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_cart_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_home_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_home_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_home_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_user_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_user_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_user_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_cart_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_cart_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_cart_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_home_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_home_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_home_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_user_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_user_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_user_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_cart_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_cart_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_cart_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_home_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_home_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_home_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_user_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_user_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_cart_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_cart_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_cart_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_home_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_home_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_home_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_user_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_user_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_user_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_cart_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_cart_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_cart_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_home_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_home_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_home_monochrome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_user_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_user_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_user_monochrome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

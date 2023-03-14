@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Pages="clr-namespace:TarritoMovil.Views.Menu" xmlns:Pages1="clr-namespace:TarritoMovil.Views"
+            x:Class="TarritoMovil.Views.Menu.EstructuraMenu">
+    
+       <FlyoutPage.Flyout>
+        <Pages:Menu x:Name="FlyoutPage"></Pages:Menu>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <NavigationPage x:Name="Navegacion">
+            <x:Arguments>
+                <Pages1:Login></Pages1:Login>
+            </x:Arguments>
+            
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>
