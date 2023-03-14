@@ -3,77 +3,89 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TarritoMovil.Views.Login">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" Margin="35,0,35,0">
-            <Label x:Name="LbTitulo"
-             Text="Iniciar sesión"
-              FontSize="Large"
-              TextColor="#79a9ac"
-              FontAttributes="Bold"
-              HorizontalTextAlignment="Center"
-                   Margin="0,20,0,30"
-               />
-            <Label x:Name="Lbusuario"
-             Text="Usuario:"
-              FontSize="Medium"
-              TextColor="DimGray"
-              FontAttributes="Bold"
-               />
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="logo"
+                   Source="Imagenes/logo.png"
+                   HeightRequest="250"
+                   Margin="0,0,0,0"/>
 
 
-            <Entry x:Name="TbUsuario"
-             
-               
-               />
-            <Label x:Name="LbContraseña"
-             Text="Contraseña:"
-             FontSize="Medium"
-             TextColor="DimGray"
-             FontAttributes="Bold"
-             Margin="0,30,0,0"   
-               />
+                <StackLayout VerticalOptions="Center" Margin="35,0,35,0">
 
-            <Entry x:Name="tbPeso"
+                    <Label x:Name="LbTitulo"
+                        Text="Iniciar sesión"
+                        FontSize="Large"
+                        TextColor="#79a9ac"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,20,0,30"
+                        />
+                    <Label x:Name="Lbusuario"
+                        Text="Usuario:"
+                        FontSize="Medium"
+                        TextColor="DimGray"
+                        FontAttributes="Bold"
+                        />
+
+
+                    <Entry x:Name="TbUsuario"
+                        />
+                    
+                    <Label x:Name="LbContraseña"
+                        Text="Contraseña:"
+                        FontSize="Medium"
+                        TextColor="DimGray"
+                        FontAttributes="Bold"
+                        Margin="0,30,0,0"   
+                        />
+
+                    <Entry x:Name="tbPass"
+                           IsPassword="True"
+                        />
+
+                    <Button x:Name="btnLogin"
+                        Text="Iniciar sesión"
+                        BackgroundColor="#af88b1"
+                        CornerRadius="15"
+                        TextColor="white"
+                        Margin="0,30,0,0" 
+                        Clicked="btnLogin_Clicked"
                 
-               />
+                        />
 
-            <Button x:Name="btnLogin"
-                Text="Iniciar sesión"
-                BackgroundColor="#af88b1"
-                CornerRadius="15"
-                TextColor="white"
-                Margin="0,30,0,0" 
-                Clicked="btnLogin_Clicked"
-                
-                />
-
-            <Label x:Name="LbSesion"
-                   HorizontalOptions="Center"
-                   FontSize="Medium"
-                   TextColor="DimGray"
-                   FontAttributes="Bold"
-                   Margin="30,30,30,30">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="¿Aún no tienes una cuenta?"/>
+                    <Label x:Name="LbSesion"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="DimGray"
+                       FontAttributes="Bold"
+                       Margin="30,30,30,30">
                         
-                        <Span Text="Regístrate aquí"
-                            TextColor="#79a9ac"
-                            TextDecorations="Underline"
-                            FontSize="Medium"
-                            FontAttributes="Bold">
-                            
-                            <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Registrarse}"/>
-                                
-                            </Span.GestureRecognizers>
-                        </Span>
+                        
+                    <Label.FormattedText>
+                         <FormattedString>
+                                <Span Text="¿Aún no tienes una cuenta?"/>
+
+                                <Span Text="Regístrate aquí"
+                                TextColor="#79a9ac"
+                                TextDecorations="Underline"
+                                FontSize="Medium"
+                                FontAttributes="Bold">
+
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Registrarse}"/>
+
+                                    </Span.GestureRecognizers>
+                                </Span>
 
 
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+                         </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+                </StackLayout>
 
 
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
