@@ -24,6 +24,7 @@
                                         <DataTemplate>
                                             <Image Source="{Binding imagen}" Aspect="Fill"/>
 
+                                            
                                         </DataTemplate>
                                     </CarouselView.ItemTemplate>
                                 </CarouselView>
