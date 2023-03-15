@@ -99,19 +99,19 @@
                          Text="Acepto los teminos y condiciones"
                          FontSize="Medium"
                          FontAttributes="Bold"
-                         TextColor="Black"
+                         TextColor="DimGray"
                          Grid.Column="1"
                          Grid.Row="0"
                          Margin="30,30,30,30"   
                          />
                         <Button x:Name="BtnGuardar"
                         Text="Guardar"
-                        TextColor="Black"
+                        TextColor="White"
                         BackgroundColor="#AF88B1"
                         Grid.Column="0"
                         Grid.ColumnSpan="2"
                         Grid.Row="1"
-                        WidthRequest="250"
+                        WidthRequest="300"
                         CornerRadius="15"
                         HeightRequest="20"
                         Margin="0,50,0,0"
@@ -123,19 +123,24 @@
                     <Label x:Name="LbIniciarSesion"
                         HorizontalOptions="Center"
                          FontSize="Medium"
-                           Margin="0,30,0,0"
-                         TextColor="Black"
+                         Margin="30,30,30,30"  
+                         TextColor="DimGray"
                          FontAttributes="Bold">
                         <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="¿Ya tienes una cuenta? " 
+                    <Span Text="¿Ya tienes una cuenta?"
+                          
                         />
                     <Span Text="Inicia Sesión"
                         TextColor="#79a9ac"
                         TextDecorations="Underline"
                         FontSize="Medium"
-                        FontAttributes="Bold">
-                        <Span.GestureRecognizers>
+                        FontAttributes="Bold"
+                         
+                        >
+                                    
+
+                                    <Span.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding IniciarSesion}"
                                            />
                         </Span.GestureRecognizers>
