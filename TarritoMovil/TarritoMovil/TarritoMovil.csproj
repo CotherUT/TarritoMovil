@@ -17,6 +17,7 @@
 
   <ItemGroup>
 	  <EmbeddedResource Update="Galeria.xaml">
+	  <EmbeddedResource Update="Views\DetalleProducto.xaml">
 	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 	  </EmbeddedResource>
 	  <EmbeddedResource Update="Views\Login.xaml">
@@ -25,8 +26,7 @@
 		  
 		  <EmbeddedResource Update="Views\Registro.xaml">
 			  <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-		  </EmbeddedResource>
-	  
+		</EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
