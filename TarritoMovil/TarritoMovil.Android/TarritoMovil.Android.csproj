@@ -372,16 +372,10 @@
     <AndroidResource Include="Resources\drawable\arete05.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\placeholder.jpg" />
+    <AndroidResource Include="Resources\drawable\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\iguanita.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ratita.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\insta_logo.png" />
@@ -394,6 +388,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logosmall_nobg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\placeholder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ratita.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

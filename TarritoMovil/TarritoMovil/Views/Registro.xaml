@@ -13,7 +13,7 @@
                 <StackLayout VerticalOptions="Center" Margin="35,0,35,0">
                     <Label x:Name="LbTitulo"
                         Text="Crear una cuenta"
-                        TextColor="#79a9ac"
+                        TextColor="#A66DA8"
                         FontAttributes="Bold"
                         FontSize="Large"
                         HorizontalTextAlignment="Center"
@@ -23,7 +23,7 @@
                         Text="Nombre de usuario:"
                         FontSize="Medium"
                         FontAttributes="Bold"
-                        TextColor="DimGray"
+                        TextColor="#3F3F3F"
                         />
                     <Entry x:Name="TbNombre"
                         Placeholder=""
@@ -35,7 +35,7 @@
                         Text="Email:"
                         FontSize="Medium"
                         FontAttributes="Bold"
-                        TextColor="DimGray"
+                        TextColor="#3F3F3F"
                         />
                     <Entry x:Name="TbEmail"
                        Placeholder=""
@@ -47,7 +47,7 @@
                        Text="Confirmar Email:"
                        FontSize="Medium"
                        FontAttributes="Bold"
-                       TextColor="DimGray"
+                       TextColor="#3F3F3F"
                        />
                     <Entry x:Name="TbConfirmarEmail"
                        Placeholder=""
@@ -59,7 +59,7 @@
                        Text="Contraseña"
                        FontSize="Medium"
                        FontAttributes="Bold"
-                       TextColor="DimGray"
+                       TextColor="#3F3F3F"
                        />
                     <Entry x:Name="TbContrasena"
                        Placeholder=""
@@ -72,7 +72,7 @@
                        Text="Confirmar Contraseña"
                        FontSize="Medium"
                        FontAttributes="Bold"
-                       TextColor="DimGray"
+                       TextColor="#3F3F3F"
                        />
                     <Entry x:Name="TbConfirmarContrasena"
                        Placeholder=""
@@ -99,7 +99,7 @@
                          Text="Acepto los teminos y condiciones"
                          FontSize="Medium"
                          FontAttributes="Bold"
-                         TextColor="DimGray"
+                         TextColor="#3F3F3F"
                          Grid.Column="1"
                          Grid.Row="0"
                          Margin="30,30,30,30"   
@@ -129,7 +129,7 @@
                         <Label.FormattedText>
                 <FormattedString>
                     <Span Text="¿Ya tienes una cuenta? " 
-                        />
+                          TextColor="#3F3F3F"  />
                     <Span Text="Inicia Sesión"
                         TextColor="#79a9ac"
                         TextDecorations="Underline"

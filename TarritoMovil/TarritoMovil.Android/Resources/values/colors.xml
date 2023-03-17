@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="launcher_background">#FFFFFF</color>
-    <color name="colorPrimary">#EADEEA</color>
-    <color name="colorPrimaryDark">#EADEEA</color>
+    <color name="colorPrimary">#86BBBE</color>
+    <color name="colorPrimaryDark">#94CFD3</color>
     <color name="colorAccent">#AF88B1</color>
 
 	<style name="CustomDatePickerDialog" parent="ThemeOverlay.AppCompat.Dialog">
