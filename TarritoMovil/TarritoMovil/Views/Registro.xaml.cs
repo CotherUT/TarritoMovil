@@ -26,5 +26,20 @@ namespace TarritoMovil.Views
             BindingContext=this; 
 
         }
+
+        private void BtnGuardar_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistro_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnGuardar_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
