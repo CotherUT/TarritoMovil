@@ -29,7 +29,7 @@
                         Placeholder=""
                         PlaceholderColor="Gray"
                         FontSize="Medium"
-                        TextColor="Black" 
+                        TextColor="#313131" 
                         />
                     <Label x:Name="LbEmail"
                         Text="Email:"
@@ -41,7 +41,7 @@
                        Placeholder=""
                        PlaceholderColor="Gray"
                        FontSize="Medium"
-                       TextColor="DimGray"
+                       TextColor="#313131"
                        />
                     <Label x:Name="LbConfirmarEmail"
                        Text="Confirmar Email:"
@@ -53,7 +53,7 @@
                        Placeholder=""
                        PlaceholderColor="Gray"
                        FontSize="Medium"
-                       TextColor="DimGray"
+                       TextColor="#313131"
                         />
                     <Label x:Name="LbContrasena"
                        Text="Contraseña"
@@ -66,7 +66,7 @@
                        PlaceholderColor="Gray"
                        IsPassword="True"
                        FontSize="Medium"
-                       TextColor="DimGray"
+                       TextColor="#313131"
                        />
                       <Label x:Name="LbConfirmarContrasena"
                        Text="Confirmar Contraseña"
@@ -79,7 +79,7 @@
                        PlaceholderColor="Gray"
                        IsPassword="True"
                        FontSize="Medium"
-                       TextColor="DimGray"
+                       TextColor="#313131"
                        />
                     <Grid>
                     <Grid.ColumnDefinitions>
@@ -99,19 +99,19 @@
                          Text="Acepto los teminos y condiciones"
                          FontSize="Medium"
                          FontAttributes="Bold"
-                         TextColor="Black"
+                         TextColor="DimGray"
                          Grid.Column="1"
                          Grid.Row="0"
                          Margin="30,30,30,30"   
                          />
                         <Button x:Name="BtnGuardar"
                         Text="Guardar"
-                        TextColor="Black"
+                        TextColor="White"
                         BackgroundColor="#AF88B1"
                         Grid.Column="0"
                         Grid.ColumnSpan="2"
                         Grid.Row="1"
-                        WidthRequest="250"
+                        WidthRequest="300"
                         CornerRadius="15"
                         HeightRequest="20"
                         Margin="0,50,0,0"
@@ -123,8 +123,8 @@
                     <Label x:Name="LbIniciarSesion"
                         HorizontalOptions="Center"
                          FontSize="Medium"
-                           Margin="0,30,0,0"
-                         TextColor="Black"
+                           Margin="0,30,0,30"
+                         TextColor="Dimgray"
                          FontAttributes="Bold">
                         <Label.FormattedText>
                 <FormattedString>

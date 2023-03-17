@@ -17,11 +17,101 @@
                      Priority="2"
                      Clicked="ToolbarItem_Clicked_2" />
     </ContentPage.ToolbarItems>
-    <StackLayout>
-        <Label x:Name="messageLabel"
-               Text="Click a toolbar item."
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
+    <StackLayout Margin="0,0,0,0">
+        <Grid RowDefinitions="*,100" VerticalOptions="FillAndExpand"
+              >
+        <ScrollView HeightRequest="1000">
+            
+                <Grid ColumnDefinitions="*,*" Margin="8,0,8,0" RowDefinitions="80,*">
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,0" Grid.ColumnSpan="2">
+                        <Label Text="Productos"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontSize="Large"
+                       TextColor="#AF88B1"
+                       FontAttributes="Bold"/>
+
+                    </StackLayout>
+                    <StackLayout x:Name="Izquierda" Grid.Column="0" Grid.Row="1"
+                        BackgroundColor="MediumPurple">
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+                                
+                            </StackLayout>
+
+                        </Frame>
+
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+
+
+                    </StackLayout>
+
+                    <StackLayout x:Name="Derecha" Grid.Column="1" Grid.Row="1"
+                        BackgroundColor="LightPink">
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+                        <Frame HeightRequest="200"
+                               CornerRadius="15"
+                               Margin="5"
+                               BackgroundColor="White"
+                               Padding="0">
+
+                            <StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            
+        </ScrollView>
+        </Grid>
     </StackLayout>
     
 
