@@ -1,4 +1,5 @@
 ﻿using System;
+using TarritoMovil.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace TarritoMovil
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Producto());
         }
 
         protected override void OnStart()

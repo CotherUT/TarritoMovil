@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using TarritoMovil.Views;
 using System.Threading.Tasks;
-using TarritoMovil.Views;
+
 using Xamarin.Forms;
 
 namespace TarritoMovil
@@ -31,5 +31,7 @@ namespace TarritoMovil
         {
             Navigation.PushAsync(new Producto());
         }
+
+        
     }
 }
