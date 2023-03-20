@@ -1,5 +1,6 @@
 ﻿using System;
 using TarritoMovil.Views;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,11 +8,14 @@ namespace TarritoMovil
 {
     public partial class App : Application
     {
+        public static NavigationPage Navigate { get;  internal set; }
+        public static EstructuraMenu MenuApp { get; internal set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Producto());
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart()

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
-using TarritoMovil.Views;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-namespace TarritoMovil
+namespace TarritoMovil.Views
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Detalle : ContentPage
     {
-        public MainPage()
+        public Detalle()
         {
             InitializeComponent();
         }
@@ -32,6 +32,9 @@ namespace TarritoMovil
             Navigation.PushAsync(new Producto());
         }
 
-        
+        private void btnVer1_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DetalleProducto());
+        }
     }
 }

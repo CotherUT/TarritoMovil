@@ -11,7 +11,8 @@
                    Margin="0,0,0,0"/>
 
 
-                <StackLayout VerticalOptions="Center" Margin="35,0,35,0">
+
+                <StackLayout VerticalOptions="Center" Margin="35,0,35,0"  BindingContext="{Binding Obj_Login}">
 
                     <Label x:Name="LbTitulo"
                         Text="Iniciar sesión"
@@ -30,7 +31,7 @@
 
 
                     <Entry x:Name="TbUsuario"
-                        />
+                       Text="{Binding Usuario}"/>
                     
                     <Label x:Name="LbContraseña"
                         Text="Contraseña:"
@@ -42,7 +43,7 @@
 
                     <Entry x:Name="tbPass"
                            IsPassword="True"
-                        />
+                        Text="{Binding Password}"/>
 
                     <Button x:Name="btnLogin"
                         Text="Iniciar sesión"

@@ -1,82 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TarritoMovil.MainPage">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Primary"
-                     Text="Login"
-                     Priority="0"
-                     IconImageSource="icon.png"
-                     Clicked="ToolbarItem_Clicked" />
-        <ToolbarItem Order="Primary"
-                     Text="Register"
-                     Priority="1"
-                     Clicked="ToolbarItem_Clicked_1" />
-        <ToolbarItem Order="Secondary"
-                     Text="Producto"
-                     Priority="2"
-                     Clicked="ToolbarItem_Clicked_2" />
-    </ContentPage.ToolbarItems>
+             x:Class="TarritoMovil.Views.Detalle">
+   
     <StackLayout>
         <!--<Grid RowDefinitions="*,100" VerticalOptions="FillAndExpand">-->
-        <!--Permite scrollear la pagina-->      
+        <!--Permite scrollear la pagina-->
         <ScrollView>
-            
-                <Grid ColumnDefinitions="*,*" Margin="8,0,8,0" RowDefinitions="80,*">
-                    <StackLayout Orientation="Horizontal" Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalOptions="Center">
-                        <Label Text="Productos"
+
+            <Grid ColumnDefinitions="*,*" Margin="8,0,8,0" RowDefinitions="80,*">
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,0" Grid.ColumnSpan="2" HorizontalOptions="Center">
+                    <Label Text="Productos"
                        VerticalOptions="Center"
                        HorizontalOptions="Center"
                        FontSize="Large"
                        TextColor="#A66DA8"
                        FontAttributes="Bold"/>
 
-                    </StackLayout>
-                    <StackLayout x:Name="Izquierda" Grid.Column="0" Grid.Row="1"
+                </StackLayout>
+                <StackLayout x:Name="Izquierda" Grid.Column="0" Grid.Row="1"
                        >
-                        <Frame HeightRequest="250"
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout >
-                                <Image x:Name="img1"
+                        <StackLayout >
+                            <Image x:Name="img1"
                                        Source="arete01.jpg"
                                        HorizontalOptions="Center"
                                        Margin="0,0,0,0"
                                        
                                        />
-                                
-                                <Label Text="Wafflitos"
+
+                            <Label Text="Wafflitos"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
                                        FontAttributes="Bold"
                                        
                                        />
-                                <Button x:Name="btnVer1"
+                            <Button x:Name="btnVer1"
                                             Text="Ver producto"
                                             CornerRadius="10"
                                             Margin="4,2,4,2"
-                                            BackgroundColor="#DDCADD">
+                                            BackgroundColor="#DDCADD"
+                                            Clicked="btnVer1_Clicked">
+                                            
                             </Button>
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
+                    </Frame>
 
-                        <Frame HeightRequest="250"
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout>
-                                <Image x:Name="img2"
+                        <StackLayout>
+                            <Image x:Name="img2"
                                        Source="arete02.jpg"
                                        HorizontalOptions="Center"/>
 
-                                <Label Text="Guacamolitos"
+                            <Label Text="Guacamolitos"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
@@ -90,57 +78,57 @@
                                             BackgroundColor="#DDCADD">
                             </Button>
 
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
-                        <Frame HeightRequest="250"
+                    </Frame>
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout>
-                                <Image x:Name="img3"
+                        <StackLayout>
+                            <Image x:Name="img3"
                                        Source="arete03.jpg"
                                        HorizontalOptions="Center"/>
 
-                                <Label Text="Sandias"
+                            <Label Text="Sandias"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
                                        FontAttributes="Bold"
                                        
                                        />
-                                <Button x:Name="btnVer3"
+                            <Button x:Name="btnVer3"
                                             Text="Ver producto"
                                             CornerRadius="10"
                                             Margin="4,2,4,2"
                                             BackgroundColor="#DDCADD">
 
 
-                                </Button>
+                            </Button>
 
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
+                    </Frame>
 
 
-                    </StackLayout>
+                </StackLayout>
 
-                    <StackLayout x:Name="Derecha" Grid.Column="1" Grid.Row="1"
+                <StackLayout x:Name="Derecha" Grid.Column="1" Grid.Row="1"
                         >
-                        <Frame HeightRequest="250"
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout>
-                                <Image x:Name="img4"
+                        <StackLayout>
+                            <Image x:Name="img4"
                                        Source="arete04.jpg"
                                        HorizontalOptions="Center"/>
-                                
-                                <Label Text="Ranitas"
+
+                            <Label Text="Ranitas"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
@@ -154,76 +142,76 @@
                                             BackgroundColor="#DDCADD">
                             </Button>
 
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
-                        <Frame HeightRequest="250"
+                    </Frame>
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout>
-                                <Image x:Name="img5"
+                        <StackLayout>
+                            <Image x:Name="img5"
                                        Source="arete05.jpg"
                                        HorizontalOptions="Center"/>
-                                
-                                <Label Text="Limoncitos"
+
+                            <Label Text="Limoncitos"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
                                        FontAttributes="Bold"/>
-                                       
-                                       
-                                <Button x:Name="btnVer5"
+
+
+                            <Button x:Name="btnVer5"
                                             Text="Ver producto"
                                             CornerRadius="10"
                                             Margin="4,2,4,2"
                                             BackgroundColor="#DDCADD">
 
 
-                                </Button>
+                            </Button>
 
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
-                        <Frame HeightRequest="250"
+                    </Frame>
+                    <Frame HeightRequest="250"
                                CornerRadius="15"
                                Margin="5"
                                BackgroundColor="White"
                                Padding="0">
 
-                            <StackLayout>
+                        <StackLayout>
 
-                                <Image x:Name="img6"
+                            <Image x:Name="img6"
                                        Source="ratita.png"
                                        HorizontalOptions="Center"/>
 
-                                <Label Text="Ratita"
+                            <Label Text="Ratita"
                                        HorizontalOptions="Center"
                                        FontSize="Medium"
                                        TextColor="#3F3F3F"
                                        FontAttributes="Bold"/>
 
 
-                                <Button x:Name="btnVer6"
+                            <Button x:Name="btnVer6"
                                             Text="Ver producto"
                                             CornerRadius="10"
                                             Margin="4,2,4,2"
                                             BackgroundColor="#DDCADD">
 
 
-                                </Button>
+                            </Button>
 
-                            </StackLayout>
+                        </StackLayout>
 
-                        </Frame>
-                    </StackLayout>
-                </Grid>
-            
+                    </Frame>
+                </StackLayout>
+            </Grid>
+
         </ScrollView>
         <!--</Grid>-->
     </StackLayout>
-    
+
 
 </ContentPage>
